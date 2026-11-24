@@ -1,0 +1,29 @@
+{
+  "name": "social-scheduler",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An open-source social media scheduler on the Hermoso API: calendar, best time to post and a composer.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=18.18"
+  },
+  "dependencies": {
+    "@hermoso/sdk": "0.1.4",
+    "next": "15.5.29",
+    "react": "19.1.10",
+    "react-dom": "19.1.10",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "@types/react": "19.1.17",
+    "@types/react-dom": "19.1.11",
+    "typescript": "5.9.3"
+  }
+}
